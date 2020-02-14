@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'franklin_gothic_mediumregular';
+    src: url('../fonts/franklin_gothic_medium-webfont.eot');
+    src: url('../fonts/franklin_gothic_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/franklin_gothic_medium-webfont.woff') format('woff'),
+         url('../fonts/franklin_gothic_medium-webfont.ttf') format('truetype'),
+         url('../fonts/franklin_gothic_medium-webfont.svg#franklin_gothic_mediumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'palatino_regular';
+    src: url('../fonts/palatinoltstd-light-webfont.eot');
+    src: url('../fonts/palatinoltstd-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/palatinoltstd-light-webfont.woff') format('woff'),
+         url('../fonts/palatinoltstd-light-webfont.ttf') format('truetype'),
+         url('../fonts/palatinoltstd-light-webfont.svg#palatino_lt_stdlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'palatino_bold';
+    src: url('../fonts/palatinoltstd-medium-webfont.eot');
+    src: url('../fonts/palatinoltstd-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/palatinoltstd-medium-webfont.woff') format('woff'),
+         url('../fonts/palatinoltstd-medium-webfont.ttf') format('truetype'),
+         url('../fonts/palatinoltstd-medium-webfont.svg#palatino_lt_stdmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.featurecontent .boxleft h2, .listprincipal h2, .headprincipal h2, .sidehead h2,  .sideleft h2, .contentabout h2, .contentabout2 h2, 
+.contentabout3 h2, .contentabout4 h2, .contentabout4 h3, .articlehead .inner h2, .codeofconduct ul li div h4,
+.codeofconduct ul li h3, .aisinbrief ul li div h4, .aisinbrief ul li h3, .campuses ul li div h4, .campuses ul li h3, .fees ul li h3,  
+.campuses ul li div span b, .boxgallery ul li h3, .campuses ul li h5, .campuses table thead th, .fees table thead th, .fees table tbody td, .campuses ul li h4,
+.enquiry-form h2, .form-group label, .form-group input[type="button"], .form-group input[type="submit"], h2.modal-title, .box-title-news h2,
+.content-news ul li h3, .box-head-search h3, .box-list-search h3
+{
+	font-family: 'palatino_bold';
+}
+.featurecontent .boxleft h3, .featurecontent .boxleft h4, .featurecontent .boxleft .desc, .maincontent p, .listprincipal h3, .listprincipal h4, .listprincipal ul li .inner,
+.headprincipal .inner h3, .headprincipal .inner h4, .headprincipal .inner, .sidehead .inner h3, .sidehead .inner h4, .sidehead .inner, .wm_principal_ver p, .wm_principal_hor p,
+.contentabout .inner p, .sideleft .inner, .contentabout2 .inner p , .contentabout3 .inner p, .contentabout4 .inner p, .contentabout4 .inner ul li, .about_security p,
+.about_security h3, .articlehead .inner p, .codeofconduct ul li div span, .aisinbrief ul li div span, .campuses ul li div span, 
+.campuses ul li div ul li, .fees ul li div ul li, .campuses ul li h3 a, .fees ul li h3 a, .campuses ul li, .fees ul li, .campuses ul li ul li h4, .campuses ul li h3 span, .fees ul li h3 span, table p, .box-detail-news p,
+.listdownload ul li, .campuses table.table-bordered tbody td, .content-news ul li, div.txt-column ul li, .box-list-search p,
+.box-head-search p
+{
+	font-family: 'palatino_bold';	
+}
+
+table thead th {
+	font-size:18px;
+	line-height:24px;
+	color:#195b55;
+	vertical-align: middle !important;
+}
+table tbody td{
+	color:#666;
+	font-size:16px;
+	line-height: 24px;
+}
+table tbody td p {
+	font-size:14px !important;
+	line-height: 22px !important;
+	color:#666 !important;
+	margin-bottom:0px !important;
+	padding-bottom:0px !important;
+}
+.wm_principal_ver p, .wm_principal_hor p, .about_security p, .box-detail-news p {
+	font-size:16px;
+	line-height:22px;
+	margin-bottom:25px;
+	color:#666;
+}
+.about_security h3 {
+	font-size:24px;
+	line-height:24px;
+	margin-bottom:10px;
+	color:#666;	
+}
+.campuses ul li {
+	font-size:16px;
+	line-height:24px;
+	color:#666;
+}
